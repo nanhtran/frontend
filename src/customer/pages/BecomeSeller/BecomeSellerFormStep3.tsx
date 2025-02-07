@@ -28,7 +28,7 @@ const BecomeSellerFormStep3: React.FC<BecomeSellerFormStep2Props> = ({
       <TextField
         fullWidth
         name="bankDetails.ifscCode"
-        label="IFSC Code"
+        label="SWIFT Code"
         value={formik.values.bankDetails.ifscCode}
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}
